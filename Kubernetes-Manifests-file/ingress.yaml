@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: production.ifnotdevops.top
+    - host: production.rikonrahman.com
       http:
         paths:
           - path: /api
