@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: backend.amanpathakdevops.study
+    - host: backend.ifnotdevops.top
       http:
         paths:
           - path: /api
