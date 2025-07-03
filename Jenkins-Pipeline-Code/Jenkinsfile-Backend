@@ -5,7 +5,8 @@ pipeline {
         nodejs 'nodejs'
     }
     environment  {
-        AWS_ACCOUNT_ID = credentials('ACCOUNT_ID')
+        //AWS_ACCOUNT_ID = credentials('ACCOUNT_ID')
+        AWS_ACCOUNT_ID = 637423393366
         //AWS_ECR_REPO_NAME = credentials('ECR_REPO2')
         AWS_ECR_REPO_NAME = 'jenkinsbackend/ecr-repo2'
         AWS_DEFAULT_REGION = 'us-east-1'
